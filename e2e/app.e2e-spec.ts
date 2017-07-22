@@ -1,10 +1,10 @@
-import { AngularPage } from './app.po';
+import { CompleteUIPage } from './app.po';
 
-describe('angular App', () => {
-  let page: AngularPage;
+describe('complete-ui App', () => {
+  let page: CompleteUIPage;
 
   beforeEach(() => {
-    page = new AngularPage();
+    page = new CompleteUIPage();
   });
 
   it('should display welcome message', () => {
