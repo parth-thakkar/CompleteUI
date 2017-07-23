@@ -1,7 +1,6 @@
 import {Component, Inject, Injectable, OnInit} from '@angular/core';
 import {Http} from '@angular/http';
-import {DevExpress} from 'devextreme/bundles/dx.all';
-import CustomStore = DevExpress.data.CustomStore;
+import CustomStore from 'devextreme/data/custom_store';
 import 'rxjs/add/operator/toPromise';
 
 @Component({
@@ -16,14 +15,8 @@ export class ReportComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
- /* laodOptions: LoadOptions;
-  customStoreOptions: CustomStoreOptions;
-*/
-
-
     constructor(@Inject(Http) http: Http) {
-      this.dataSource.store = new CustomStore({
+      this.dataSource  = new CustomStore({
         load: function (loadOptions) {
           let params = '?';
 
@@ -50,13 +43,4 @@ export class ReportComponent implements OnInit {
         }
       });
     }
-  }
-
-  /*loadData(loadOptions: LoadOptions){
-    return {
-      data: null,
-      totalCount: 12
-    };
-  }*/
-
 }
