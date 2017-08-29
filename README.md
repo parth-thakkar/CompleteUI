@@ -1,10 +1,10 @@
 
 Todo :
-<li>
-Add a screen for DB queries
-Add a screen for configuring DB
-Add a scrren for DBA queries like search a table name or column name.
-</li>
+
+* Add a screen for DB queries
+* Add a screen for configuring DB
+* Add a scrren for DBA queries like search a table name or column name.
+
 
 # CompleteUI
 
