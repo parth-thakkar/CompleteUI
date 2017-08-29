@@ -1,3 +1,9 @@
+
+Todo :
+Add a screen for DB queries
+Add a screen for configuring DB
+Add a scrren for DBA queries like search a table name or column name.
+
 # CompleteUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
